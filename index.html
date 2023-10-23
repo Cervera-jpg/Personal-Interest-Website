@@ -3,19 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Personal Website</title>
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <div class="desktop-nav">
-      <div class="wrapper">
-        <div class="overlap">
-          <img class="wallpaper1" src="Assets/op.jpg" />
-          <div class="nav-bar">
-            <div class="group-1">
-              <img class="element-1" src="Assets/logo.png" />
-              <div class="text-wrapper"> WEB | DEV</div>
+  <nav id="desktop-nav">
+      <div class="nav-bar">
+            <div class="group">
+              <img class="element" src="Assets/logo.png" />
+              <div class="text-wrapper">WATCH | ANIME</div>
               <div class="div">ANIME NAME</div>
             </div>
+        <ul class="nav-links">
+          <li><a href="#Browse" onclick="toggleMenu()">Browse</a></li>
+          <li><a href="#Example1" onclick="toggleMenu()">Example1</a></li>
+          <li><a href="#Example2" onclick="toggleMenu()">Example2</a></li>
+       <form action="">
+         <input type="search" required>
+         <i class="fa fa-search"></i>
+         <a href="javascript:void(0)" id="clear-btn">Clear</a>
+</form>
+      </div>
+    </nav>
+    </section>
+  <script src="script.js"></script>
   </body>
 </html>
