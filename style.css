@@ -24,15 +24,15 @@ html {
   width: 1920px;
   height: 1080px;
 }
-.desktop-nav .navbar {
+.desktop-nav .overlap {
   position: relative;
   width: 1978px;
   height: 1080px;
 }
 .desktop-nav .wallpaper1 {
   position: absolute;
-  width: 1920px;
-  height: 1080px;
+  width: 1500px;
+  height: 700px;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -40,8 +40,49 @@ html {
 .desktop-nav .nav-bar {
   position: absolute;
   width: 1920px;
-  height: 87px;
+  height: 100px;
   top: 0;
   left: 0;
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.desktop-nav .group-1 {
+  position: absolute;
+  width: 234px;
+  height: 52px;
+  top: 17px;
+  left: 56px;
+}
+.desktop-nav .element-1 {
+  position: absolute;
+  width: 70px;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+.desktop-nav .text-wrapper {
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop-nav .div {
+  position: absolute;
+  width: 164px;
+  top: 0;
+  left: 80px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
