@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 * {
-  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+body {
+  background: rgba(0, 0, 0, 0.8);
 }
 html,
 body {
@@ -36,6 +38,7 @@ html {
   top: 0;
   left: 0;
   object-fit: cover;
+  filter: brightness(90%);
 }
 .desktop-nav .nav-bar {
   position: absolute;
@@ -43,7 +46,7 @@ html {
   height: 100px;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .desktop-nav .group-1 {
@@ -59,6 +62,7 @@ html {
   height: auto;
   top: 0px;
   left: 0px;
+  border-radius: 5px;
 }
 .desktop-nav .text-wrapper {
   position: absolute;
