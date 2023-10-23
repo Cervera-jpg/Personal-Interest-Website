@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+.desktop-nav {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.desktop-nav .wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+.desktop-nav .navbar {
+  position: relative;
+  width: 1978px;
+  height: 1080px;
+}
+.desktop-nav .wallpaper1 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.desktop-nav .nav-bar {
+  position: absolute;
+  width: 1920px;
+  height: 87px;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.9);
+}
