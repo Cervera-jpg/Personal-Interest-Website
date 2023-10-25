@@ -242,7 +242,7 @@ form:valid a {
   align-items: center;
   position: absolute;
   top: 320px;
-  left: 70%;
+  left: 74%;
   transform: translateX(-50%);
 }
 
@@ -252,22 +252,22 @@ form:valid a {
   cursor: pointer;
 }
 
-#main .slider .preview {
+#main .slider .w3-content {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 60px;
 }
 
-#main .slider .preview img {
+#main .slider .w3-content img {
   width: 60px;
   height: auto;
-  margin: 0 10px;
+  margin: 0 5px;
   opacity: 0.6;
   object-fit: cover;
 }
 
-#main .slider .preview .active {
+#main .slider .w3-content .active {
   display: block;
   border: 3px solid #fff;
   width: 240px;

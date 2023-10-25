@@ -15,13 +15,13 @@ var thumbnail = document.getElementsByClassName("thumbnail");
 
 var bgimg = new Array(
   "Assets/slide 1.png",
-  "Assets/slide 2.jpg",
+  "Assets/slide 2.png",
   "Assets/slide 3.png",
   "Assets/slide 4.png",
   "Assets/slide 5.png",
-  "Assets/slide 6.jpeg",
+  "Assets/slide 6.png",
   "Assets/slide 7.png",
-  "Assets/slide 8.jpg"
+  "Assets/slide 8.png"
 );
 
 let i = 0;
