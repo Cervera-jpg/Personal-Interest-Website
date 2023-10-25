@@ -225,3 +225,9 @@ form:valid a {
   color: white;
   box-shadow: 0 0 10px white;
 }
+
+/*slides section*/
+.slide-container {
+  width: 100vw;
+  height: 10vh;
+}
