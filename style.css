@@ -252,14 +252,14 @@ form:valid a {
   cursor: pointer;
 }
 
-#main .slider .w3-content {
+#main .slider .preview {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 60px;
 }
 
-#main .slider .w3-content img {
+#main .slider .preview img {
   width: 60px;
   height: auto;
   margin: 0 5px;
@@ -267,7 +267,7 @@ form:valid a {
   object-fit: cover;
 }
 
-#main .slider .w3-content .active {
+#main .slider .preview .active {
   display: block;
   border: 3px solid #fff;
   width: 240px;
