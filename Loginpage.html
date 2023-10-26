@@ -2,17 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link
-    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-    rel="stylesheet"/>
-
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <body>
     <!-- signin -->
     <div class="container">
       <div class="signin-signup">
@@ -26,7 +26,12 @@
             <i class="bx bx-lock-alt"></i>
             <input type="password" placeholder="Password" />
           </div>
-          <input type="submit" value="Login" class="btn" />
+          <input
+            type="button"
+            value="Login"
+            class="btn"
+            onclick="location.href='index.html'"
+          />
           <p class="social-text">Or Sign in with</p>
           <div class="social-media">
             <a href="" class="social-icon">
@@ -83,7 +88,6 @@
           </p>
         </form>
       </div>
-        <!-- adding panel container -->
       <div class="panels-container">
         <div class="panel left-panel">
           <div class="content">
@@ -103,6 +107,6 @@
         </div>
       </div>
     </div>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
