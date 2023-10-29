@@ -363,3 +363,16 @@ section {
   top: 50%;
   width: 100%;
 }
+
+.swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 0.2rem !important;
+  background: white !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 1.5rem !important;
+  background: #ae00ff !important;
+}
