@@ -276,6 +276,7 @@ select {
   width: 210px;
   height: auto;
   border-radius: 10px;
+  transition: transform 0.5s;
 }
 
 .anime-card h3 {
@@ -285,4 +286,8 @@ select {
 .anime-card p {
   color: white;
   margin: 10px 0;
+}
+
+.anime-card:hover img {
+  transform: scale(1.1);
 }
