@@ -421,3 +421,15 @@ section {
   margin: 10px 0;
   text-align: center;
 }
+
+/* Footer Section */
+
+footer {
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+  color: aqua;
+}
