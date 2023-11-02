@@ -24,7 +24,7 @@ var swiper = new Swiper(".home", {
   },
 });
 
-// popular slider
+// popular slide
 
 var swiper = new Swiper(".anime-slider", {
   slidesPerView: 5,
@@ -41,7 +41,7 @@ var swiper = new Swiper(".anime-slider", {
   loop: true,
 });
 
-// popular slider
+// recommended slide
 
 var swiper = new Swiper(".anime-slider", {
   slidesPerView: 5,
