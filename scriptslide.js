@@ -43,7 +43,7 @@ var swiper = new Swiper(".anime-slider", {
 
 // recommended slide
 
-var swiper = new Swiper(".anime-slider", {
+var swiper = new Swiper(".recommended-slider", {
   slidesPerView: 5,
   spaceBetween: 30,
   centeredSlides: true,
