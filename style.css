@@ -384,3 +384,40 @@ section {
   width: 1.5rem !important;
   background: #ae00ff !important;
 }
+
+/* popular page */
+
+.anime {
+  padding: 4rem;
+  margin: 5px;
+}
+
+.anime .box {
+  width: 299px;
+  height: 445px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.anime .content h3 {
+  font-size: 25px;
+  color: #78d6c6;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.anime .content P {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  justify-content: left;
+  margin: 10px 0;
+  text-align: center;
+}
