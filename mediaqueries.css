@@ -1,9 +1,37 @@
-@media screen and (max-width: 600px) {
-  .anime-card img {
-    width: 180px;
+/* responsive for sign-up sign-in page */
+@media (max-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
   }
-  .anime-card h3,
-  p {
-    font-size: 15px;
+}
+@media (max-width: 554px) {
+  .container::before {
+    display: none;
+  }
+  form {
+    width: 80%;
+  }
+  form.sign-up-form {
+    display: none;
+  }
+  .container.sign-up-mode2 form.sign-up-form {
+    display: flex;
+    opacity: 1;
+  }
+  .container.sign-up-mode2 form.sign-in-form {
+    display: none;
+  }
+  .panels-container {
+    display: none;
+  }
+  .account-text {
+    display: initial;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 320px) {
+  form {
+    width: 90%;
   }
 }
