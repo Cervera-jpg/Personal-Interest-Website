@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px) {
+  .anime-card img {
+    width: 180px;
+  }
+  .anime-card h3,
+  p {
+    font-size: 15px;
+  }
+}
