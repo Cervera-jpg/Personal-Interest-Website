@@ -1,3 +1,13 @@
+/*Clear Button*/
+const clearInput = () => {
+  const input = document.getElementsByTagName("input")[0];
+  input.value = "";
+};
+const clearBtn = document.getElementById("clear-btn");
+clearBtn.addEventListener("click", clearInput);
+
+// home slider
+
 var swiper = new Swiper(".home", {
   spaceBetween: 30,
   centeredSlides: true,
