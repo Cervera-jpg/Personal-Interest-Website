@@ -1,12 +1,3 @@
-/*Clear Button*/
-const clearInput = () => {
-  const input = document.getElementsByTagName("input")[0];
-  input.value = "";
-};
-
-const clearBtn = document.getElementById("clear-btn");
-clearBtn.addEventListener("click", clearInput);
-
 /*browse*/
 document.addEventListener("DOMContentLoaded", function () {
   const genreSelect = document.getElementById("genre-select");
