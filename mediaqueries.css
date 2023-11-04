@@ -1,37 +1,358 @@
-/* responsive for sign-up sign-in page */
-@media (max-width: 768px) {
+@media screen and (max-width: 1366px) {
+  #desktop-nav {
+    padding: 20px 10%;
+  }
+  #desktop-nav .group {
+    top: 10px;
+  }
+  .swiper-slide .wallpaper {
+    width: 1500px;
+    height: auto;
+  }
+
   .container {
-    width: 100vw;
-    height: 100vh;
+    min-height: 750px;
+  }
+  .container .logo2 {
+    width: 600px;
+    height: auto;
+    top: 150px;
+    left: 50px;
+  }
+
+  #videobox video {
+    width: 580px;
   }
 }
-@media (max-width: 554px) {
-  .container::before {
-    display: none;
+@media screen and (max-width: 1000px) {
+  #desktop-nav {
+    padding: 20px 10%;
   }
-  form {
-    width: 80%;
+  #desktop-nav .group {
+    top: 10px;
   }
-  form.sign-up-form {
-    display: none;
+  .swiper-slide .wallpaper {
+    width: 1000px;
+    height: auto;
   }
-  .container.sign-up-mode2 form.sign-up-form {
-    display: flex;
-    opacity: 1;
+
+  .container {
+    min-height: 550px;
   }
-  .container.sign-up-mode2 form.sign-in-form {
-    display: none;
+  .container .logo2 {
+    width: 600px;
+    height: auto;
+    top: 150px;
+    left: 50px;
   }
-  .panels-container {
-    display: none;
+
+  #videobox video {
+    width: 580px;
   }
-  .account-text {
-    display: initial;
-    margin-top: 30px;
+  .swiper-slide .logo1 {
+    width: 250px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo2 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo3 {
+    width: 200px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo4 {
+    width: 250px;
+    top: 30px;
+    left: 30px;
+  }
+  .swiper-slide .logo5 {
+    width: 200px;
+    top: 40px;
+    left: 45px;
+  }
+  .swiper-slide .logo6 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo7 {
+    width: 250px;
+    top: 30px;
+    left: 45px;
+  }
+  .swiper-slide .logo8 {
+    width: 250px;
+    top: 10px;
+    left: 45px;
+  }
+  .swiper-slide .logo9 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+
+  .home-text h1 {
+    font-size: 9px;
+    top: 0px;
+    margin-left: 50px;
+    margin-top: 115px;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-left: 47px;
+    width: 80px;
+    height: auto;
+    font-size: 8px;
+  }
+  #videobox video {
+    width: 320px;
+  }
+  #videobox {
+    top: 110px;
   }
 }
-@media (max-width: 320px) {
-  form {
-    width: 90%;
+
+@media screen and (max-width: 800px) {
+  #desktop-nav {
+    padding: 20px 10%;
+  }
+  #desktop-nav .group {
+    top: 10px;
+  }
+  .swiper-slide .wallpaper {
+    width: 800px;
+    height: auto;
+  }
+  .swiper-slide .logo1 {
+    width: 250px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo2 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo3 {
+    width: 200px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo4 {
+    width: 250px;
+    top: 30px;
+    left: 30px;
+  }
+  .swiper-slide .logo5 {
+    width: 200px;
+    top: 40px;
+    left: 45px;
+  }
+  .swiper-slide .logo6 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo7 {
+    width: 250px;
+    top: 30px;
+    left: 45px;
+  }
+  .swiper-slide .logo8 {
+    width: 250px;
+    top: 10px;
+    left: 45px;
+  }
+  .swiper-slide .logo9 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .container {
+    min-height: 400px;
+  }
+  .home-text h1 {
+    font-size: 9px;
+    top: 0px;
+    margin-left: 50px;
+    margin-top: 115px;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-left: 47px;
+    width: 80px;
+    height: auto;
+    font-size: 8px;
+  }
+  #videobox video {
+    width: 320px;
+  }
+  #videobox {
+    top: 110px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #desktop-nav {
+    padding: 20px 10%;
+  }
+  #desktop-nav .group {
+    top: 10px;
+  }
+  .swiper-slide .wallpaper {
+    width: 800px;
+    height: auto;
+  }
+  .swiper-slide .logo1 {
+    width: 250px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo2 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo3 {
+    width: 200px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo4 {
+    width: 250px;
+    top: 30px;
+    left: 30px;
+  }
+  .swiper-slide .logo5 {
+    width: 200px;
+    top: 40px;
+    left: 45px;
+  }
+  .swiper-slide .logo6 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo7 {
+    width: 250px;
+    top: 30px;
+    left: 45px;
+  }
+  .swiper-slide .logo8 {
+    width: 250px;
+    top: 10px;
+    left: 45px;
+  }
+  .swiper-slide .logo9 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .container {
+    min-height: 450px;
+  }
+  .home-text h1 {
+    font-size: 9px;
+    top: 0px;
+    margin-left: 50px;
+    margin-top: 115px;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-left: 47px;
+    width: 80px;
+    height: auto;
+    font-size: 8px;
+  }
+  #videobox video {
+    width: 220px;
+  }
+  #videobox {
+    top: 130px;
+    left: 75px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #desktop-nav {
+    padding: 20px 10%;
+  }
+  #desktop-nav .group {
+    top: 10px;
+  }
+  .swiper-slide .wallpaper {
+    width: 800px;
+    height: auto;
+  }
+  .swiper-slide .logo1 {
+    width: 250px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo2 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo3 {
+    width: 200px;
+    top: 20px;
+    left: 45px;
+  }
+  .swiper-slide .logo4 {
+    width: 250px;
+    top: 30px;
+    left: 30px;
+  }
+  .swiper-slide .logo5 {
+    width: 200px;
+    top: 40px;
+    left: 45px;
+  }
+  .swiper-slide .logo6 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .swiper-slide .logo7 {
+    width: 250px;
+    top: 30px;
+    left: 45px;
+  }
+  .swiper-slide .logo8 {
+    width: 250px;
+    top: 10px;
+    left: 45px;
+  }
+  .swiper-slide .logo9 {
+    width: 250px;
+    top: 50px;
+    left: 45px;
+  }
+  .container {
+    min-height: 450px;
+  }
+  .home-text h1 {
+    font-size: 9px;
+    top: 0px;
+    margin-left: 50px;
+    margin-top: 115px;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-left: 47px;
+    width: 80px;
+    height: auto;
+    font-size: 8px;
+  }
+  #videobox video {
+    width: 220px;
+  }
+  #videobox {
+    top: 130px;
+    left: 75px;
   }
 }

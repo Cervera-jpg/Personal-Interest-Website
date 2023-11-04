@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(20, 20, 20);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+h1 {
+  color: white;
+}
+
+/* Transition */
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+/*Profile-icons*/
+.icons-container {
+  display: none;
+}
+
+/* Desktop Navigation */
+#desktop-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  padding: 30px 10%;
+  top: 0;
+  z-index: 100;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*logo*/
+#desktop-nav .group {
+  position: absolute;
+  width: 234px;
+  height: 52px;
+  top: 20px;
+  left: 56px;
+}
+#desktop-nav .element {
+  position: absolute;
+  width: 70px;
+  height: auto;
+  top: 0px;
+  left: 0;
+}
+
+#desktop-nav .text-wrapper {
+  position: absolute;
+  top: 45px;
+  left: 75px;
+  font-family: "Poiret One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+#desktop-nav .div {
+  position: absolute;
+  width: 164px;
+  top: 10px;
+  left: 75px;
+  -webkit-text-stroke: 0.4px #ffffff;
+  font-family: "Poiret One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+#desktop-nav,
+.nav-links {
+  display: flex;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+/*logo design*/
+#desktop-nav .div:hover {
+  cursor: pointer;
+}
+#desktop-nav .text-wrapper:hover {
+  cursor: pointer;
+}
+#desktop-nav .element:hover {
+  cursor: pointer;
+}
+
+/*search box*/
+form {
+  position: relative;
+  top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+}
+
+input {
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.fa {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 0.5ms;
+}
+
+form:hover,
+form:valid {
+  width: 300px;
+  cursor: pointer;
+}
+
+form:hover input,
+form:valid input {
+  display: block;
+}
+
+form:hover .fa,
+form:valid .fa {
+  background: #07051a;
+  color: rgb(255, 255, 255);
+}
+
+form a {
+  display: none;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 185px;
+  right: 0;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+
+form:valid a {
+  display: block;
+}
+
+/*links designs*/
+#desktop-nav ul li a {
+  color: rgb(255, 255, 255);
+  top: 2px;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+}
+#desktop-nav ul li {
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+  margin: 10px 20px;
+}
+
+#desktop-nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.6s;
+}
+#desktop-nav ul li a:hover::after {
+  width: 100%;
+  background-color: #ae00ff;
+  color: white;
+  box-shadow: 0 0 10px white;
+}
+/*button*/
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  margin: 1%;
+  margin-left: 0%;
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  margin-left: 55px;
+}
+.btn-color-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn-color-1:hover {
+  cursor: pointer;
+  background: #ae00ff;
+  color: white;
+}
+/*slides*/
+section {
+  padding: 4.5rem 0 1.5rem;
+}
+.container {
+  width: 100%;
+  min-height: 750px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: rgb(2, 3, 7, 0.4);
+}
+.container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+.container .wallpaper {
+  filter: brightness(0.5);
+}
+.container .logo1 {
+  width: 600px;
+  height: auto;
+  top: 100px;
+  left: 50px;
+}
+.container .logo2 {
+  width: 600px;
+  height: auto;
+  top: 150px;
+  left: 50px;
+}
+.container .logo3 {
+  width: 550px;
+  height: auto;
+  top: 70px;
+  left: 50px;
+}
+.container .logo4 {
+  width: 700px;
+  height: auto;
+  top: 90px;
+  left: 0px;
+}
+.container .logo5 {
+  width: 600px;
+  height: auto;
+  top: 105px;
+  left: 65px;
+}
+.container .logo6 {
+  width: 700px;
+  height: auto;
+  top: 80px;
+  left: 40px;
+}
+.container .logo7 {
+  width: 600px;
+  height: auto;
+  top: 100px;
+  left: 60px;
+}
+.container .logo8 {
+  width: 600px;
+  height: auto;
+  top: 60px;
+  left: 60px;
+}
+.container .logo9 {
+  width: 600px;
+  height: auto;
+  top: 200px;
+  left: 60px;
+}
+.container h1 {
+  top: 100px;
+}
+.swiper-slide h1 {
+  margin-top: 320px;
+  margin-left: 55px;
+  font-size: 18px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-shadow: 2px 2px black;
+}
+#videobox {
+  padding: 0;
+  display: block;
+  height: 100%;
+  left: 55%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 0.2rem !important;
+  background: white !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 1.5rem !important;
+  background: #ae00ff !important;
+}
