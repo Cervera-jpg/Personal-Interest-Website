@@ -12,8 +12,9 @@
 }
 
 @media (max-width: 768px) {
-  .home .box .content h3 {
+  .home .box .content h3 p {
     font-size: 5rem;
+    overflow: scroll;
   }
 }
 
