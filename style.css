@@ -228,8 +228,10 @@ form:valid a {
 
 /*Browse*/
 h1 {
-  text-align: left;
+  text-align: center;
+  margin-top: 20px;
   margin-left: 60px;
+  font-size: 50px;
   color: white;
 }
 
