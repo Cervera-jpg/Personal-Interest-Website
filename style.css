@@ -414,6 +414,13 @@ section {
   text-align: center;
 }
 
+.heading {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
 /* Footer Section */
 
 footer {
