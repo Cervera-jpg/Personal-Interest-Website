@@ -1,3 +1,5 @@
+/* Homepage responsive */
+
 @media screen and (max-width: 1366px) {
   #desktop-nav {
     padding: 20px 10%;
@@ -354,5 +356,31 @@
   #videobox {
     top: 130px;
     left: 75px;
+  }
+}
+
+/* media query */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  header {
+    padding: 1rem 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .box .content h3 p {
+    font-size: 5rem;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
   }
 }

@@ -376,3 +376,53 @@ section {
   width: 1.5rem !important;
   background: #ae00ff !important;
 }
+
+/* popular & recommended page */
+
+.anime {
+  padding: 2rem;
+  margin: 5px;
+}
+
+.anime .box {
+  width: 299px;
+  height: 445px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.anime .content h3 {
+  font-size: 25px;
+  color: #78d6c6;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.anime .content P {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  justify-content: left;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Footer Section */
+
+footer {
+  margin: 0 1rem;
+  height: 2vh;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+  color: rgb(178, 178, 178);
+}
