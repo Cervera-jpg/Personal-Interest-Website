@@ -1,15 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <meta charset="utf-8" />
+    <title>ANIMATRIXX</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+       <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
+<header>
+  <nav id="desktop-nav"> 
+      <div class="nav-bar">
+            <div class="group">
+              <img class="element" src="assets/logo.png" onclick="window.location.reload();">
+              <div class="text-wrapper"onclick="window.location.reload();">WATCH | ANIME</div>
+              <div class="div"onclick="window.location.reload();">ANIMATRIXX</div>
+            </div>
+        <ul class="nav-links">
+          <li><a href="#Popular" onclick="toggleMenu()">Popular</a></li>
+          <li><a href="#Recommended" onclick="toggleMenu()">Recommended</a></li>
+          <li><a href="#Browse" onclick="toggleMenu()">Browse</a></li>
+       <form action="">
+         <input type="search" required>
+         <i class='bx bx-search-alt bx-tada' ></i>
+         <a href="javascript:void(0)" id="clear-btn">Clear</a>
+        </form>
+      </div>
+  </header>
+    <!-- Swiper -->
+<section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide container">
+         <img src="assets/slide 1.png" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo1" src="assets/op logo.png" alt="">
+          <h1>Monkey. D. Luffy refuses to let anyone or anything stand in the way<br> of his
+            quest to become the king of all pirates. With a course charted <br>for the treacherous
+            waters of the Grand Line and beyond, this is one<br> captain who'll never give up until
+            he's claimed the greatest treasure <br>on Earth: the Legendary One Piece!</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/one-piece-100')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/op vid.mp4" type="video/mp4">
+        </video>
+        </div>
+         </div>
+        </div>
+        <div class="swiper-slide container">
+         <img src="assets/slide 2.png" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo2" src="assets/jjk logo.png" alt="logo2">
+          <h1>Yuji Itadori is a boy with tremendous physical strength,
+            <br>though he lives a completely ordinary high school life.<br> One day,
+             to save a classmate who has been attacked <br>by curses, he eats the finger 
+             of Ryomen Sukuna, taking<br> the curse into his own soul. From then on, he 
+             shares one<br> body with Ryomen Sukuna. </h1>
+          <div class="btn-container"></div>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/jujutsu-kaisen-tv-534')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/jjk vid.mp4" type="video/mp4">
+        </video>
+        </div>
+         </div>
+        </div>  
+        <div class="swiper-slide container">
+         <img src="assets/slide 3.jpg" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo3" src="assets/hxh logo.png" alt="logo3">
+          <h1>Twelve-year-old Gon Freecss is determined to become the<br> best Hunter possible 
+            in hopes of finding his father, who was<br> a Hunter himself and had long ago abandoned
+             his young son.<br> However, Gon soon realizes the path to achieving his goals is<br> far
+              more challenging than he could have ever imagined.</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/hunter-x-hunter-2')">
+            Watch Now </button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/hxh vid.mp4" type="video/mp4">
+        </video>
+        </div>  
+         </div>
+        </div>  
+        <div class="swiper-slide container">
+         <img src="assets/slide 4.jpg" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo4" src="assets/Kakegurui logo.png" alt="logo4">
+          <h1>Hyakkaou Private Academy. An institution for the privileged<br> with a very
+            peculiar curriculum. You see, when you're the <br>sons and daughters of the
+            wealthiest of the wealthy, it's not <br>athletic prowess or book smarts that
+            keep you ahead. It's <br>reading your opponent, the art of the deal.</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/kakegurui-1988')">
+            Watch Now </button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/kkg vid.mp4" type="video/mp4">
+        </video>
+        </div>  
+         </div>
+        </div>   
+        <div class="swiper-slide container">
+         <img src="assets/slide 5.jpg" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo5" src="assets/spyxfamily logo.png" alt="logo5">
+          <h1>"Twilight" takes on the identity of psychiatrist Loid Forger<br> and starts looking
+            for family members. But Anya, the<br> daughter he adopts, turns out to have the
+            ability to read <br>people's minds, while his wife, Yor, is an assassin! With<br> it being
+            in each of their own interests to keep these facts hidden.<br></h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/spy-x-family-17977')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/SxF vid.mp4" type="video/mp4">
+        </video>
+        </div>  
+         </div>
+        </div>   
+        <div class="swiper-slide container">
+         <img src="assets/slide 6.jpg" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo6" src="assets/opm logo.png" alt="logo6">
+          <h1>The seemingly ordinary and unimpressive Saitama has a <br>rather unique hobby:
+             being a hero. In order to pursue his<br> childhood dream, he trained relentlessly
+            for three years—<br>and lost all of his hair in the process. Now, Saitama is <br>incredibly
+            powerful, so much so that no enemy is able to<br> defeat him in battle.</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/one-punch-man-63')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/OPM vid.mp4" type="video/mp4">
+        </video>
+        </div>        
+         </div>
+        </div> 
+        <div class="swiper-slide container">
+         <img src="assets/slide 7.png" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo7" src="assets/detective conan logo.png" alt="logo7">
+          <h1>Kudo Shinichi is a seventeen year-old high school detective<br> whom people
+            call the "Modern Sherlock Holmes." However,<br> one night after a date with his 
+            childhood sweetheart, Ran, <br>Shinichi witnessed an illegal trade and, caught
+            off his guard, <br>was knocked unconscious and fed a drug that was supposed<br>
+            to kill him... but he woke up and found himself shrunken to a<br> seven year-old.</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/case-closed-323')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/DC vid.mp4" type="video/mp4">
+        </video>
+        </div>          
+         </div>
+        </div> 
+        <div class="swiper-slide container">
+         <img src="assets/slide 8.jpg" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo8" src="assets/ippo logo.png" alt="logo8">
+          <h1>Makunouchi Ippo has been bullied his entire life. <br>Constantly running
+            errands and being beaten up by <br>his classmates, Ippo has always dreamed 
+            of changing<br> himself, but never has the passion to act upon it. One<br> day, 
+            in the midst of yet another bullying, Ippo is saved by <br>Takamura Mamoru,
+             who happens to be a boxer.</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/fighting-spirit-34')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/Ippo vid.mp4" type="video/mp4">
+        </video>
+        </div>          
+         </div>
+        </div> 
+        <div class="swiper-slide container">
+         <img src="assets/slide 9.jpg" alt="" class="wallpaper">
+         <div class="home-text">
+          <img class="logo9" src="assets/elite logo.png" alt="logo9">
+          <h1>Koudo Ikusei Senior High School is a leading prestigious <br>school with 
+            state-of-the-art facilities where nearly 100% of<br> students go on to university or
+            find employment. The <br>students there have the freedom to wear any hairstyle <br>
+            and bring any personal effects they desire.</h1>
+          <button class="btn btn-color-1" onclick=" window.open('https://4anime.gg/classroom-of-the-elite-713')">
+            Watch Now</button>
+          <div id="videobox">
+          <video width="1000" height="340" autoplay muted>
+           <source src="assets/CE vid.mp4" type="video/mp4">
+        </video>
+        </div>   
+         </div>
+        </div>                              
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- Popular Page -->
+<section class="anime" id="Popular">
+    <h1 class="heading">Popular on Anime</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
 
-  <section id="Browse">
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/fruit\ basket1.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Fruit Basket</h3>
+                    <p>After Tohru is taken in by the Soma family, she learns that twelve family members transform involuntarily into animals of the Chinese zodiac.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/jjk1.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>The Strongest Cursed Object Attracts the small curses (Weak Monsters) which are not from Human world.</p>
+                   
+                </div>
+            </div>
+            
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/tokyo\ ghoul.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Tokyo Ghoul</h3>
+                    <p>A Tokyo college student is attacked by a ghoul, a superpowered human who feeds on human flesh.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/sailor\ moon.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Sailor Moon</h3>
+                    <p>A Tokyo college student is attacked by a ghoul, a superpowered human who feeds on human flesh.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/astro\ boy.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Astro Boy</h3>
+                    <p>When an android replica of a boy is rejected by his aggrieved creator, he goes off to find his own identity in an adventure that would make him the greatest hero of his time.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/pokemon.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Pokemon</h3>
+                    <p>It takes place in a shared universe in which humans co-exist with creatures known as Pokémon, a large variety of species endowed with special powers.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/doraemon.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Doraemon</h3>
+                    <p>It is about the life of Nobita Nobi. In a typical story Doramon uses a gadget to solve a problem for Nobita, but Nobita goes too far and ends up being punished and learning a lesson.</p>
+                   
+                </div>
+            </div>
+
+             <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/hxh.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Hunter x Hunter</h3>
+                    <p>Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.</p>
+                   
+                </div>
+            </div>
+
+             <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/opm.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>One Punch Man</h3>
+                    <p>The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch.</p>
+                   
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section> 
+
+
+<!-- Recommended page -->
+<section class="anime" id="Recommended">
+    <h1 class="heading">Recommended Anime</h1>
+    <div class="swiper recommended-slider">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/haikyu.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Haikyu!!</h3>
+                    <p>Determined to be like the volleyball championship's star player nicknamed "the small giant", Shoyo joins his school's volleyball club.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/Spy\ x\ Family.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Spy x Family</h3>
+                    <p>A spy on an undercover mission gets married and adopts a child as part of his cover. His wife and daughter have secrets of their own, and all three must strive to keep together.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/Violet\ Evergarden.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Violet Evergarden</h3>
+                    <p>In the aftermath of a great war, Violet Evergarden, a young female ex-soldier, gets a job at a writers' agency and goes on assignments to create letters that can connect people.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/code\ geass.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Code Geass</h3>
+                    <p>After being given a mysterious power to control others, an outcast prince becomes the masked leader of the rebellion against an all-powerful empire.</p>
+                   
+                </div>
+            </div>
+
+
+          <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/tpn.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>The Promised Neverland</h3>
+                    <p>When three gifted kids at an isolated idyllic orphanage discover the secret and sinister purpose they were raised for, they look for a way to escape from their evil caretaker and lead the other children in a risky escape plan.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/mob.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Mob Psycho 100</h3>
+                    <p>A psychic middle school boy tries to live a normal life and keep his growing powers under control, even though he constantly gets into trouble.
+</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/Hajime\ no\ Ippo.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Hajime no Ippo</h3>
+                    <p>Ippo, a teenage boy with a pure heart and unrelenting determination, discovers a passion for boxing after veteran fighter Takamura saves him from bullies.</p>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/one\ piece.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>One Piece</h3>
+                    <p>Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named "One Piece".</p>
+                   
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/Kakegurui.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Kakegurui</h3>
+                    <p>A gambling prodigy comes to an elite school run by games and turns the order upside down.</p>
+                   
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box" style="background: url(./assets/hotaru.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Hotarubi no Mori e</h3>
+                    <p>Hotaru is rescued by a spirit when she gets lost in a forest as a child. The two become friends, despite the spirit revealing that he will disappear if he is ever touched by a human.</p>
+                   
+                </div>
+            </div>
+         
+        </div>
+    </div>
+         </section>
+  <!-- Browse -->
+   <section id="Browse">
       <h1>Browse</h1>
       <div class="filters">
         <label for="genre-select">Genre:</label>
@@ -28,7 +414,7 @@
           <option value="Novel">Novel</option>
         </select>
 
-        <label for="year-select">Year:</label>
+    <label for="year-select">Year:</label>
         <select id="year-select">
           <option value="all">All Years</option>
           <option value="2023">2023</option>
@@ -84,9 +470,9 @@
           <option value="1873">1873</option>
           <option value="1872">1872</option>
         </select>
-      </div>
 
-      <div class="anime-list">
+      </div>
+     <div class="anime-list">
         <div class="anime-card">
           <img src="Assets/5 centimeters per second.jpg" alt="Anime 1"  onclick=" window.open('https://4anime.gg/watch/5-centimeters-per-second-859?ep=58333')"/>
           <h3>5 Centimeters per Second</h3>
@@ -725,7 +1111,13 @@
           <p>Year: 1998 </p>
         </div>
       </div>
-    </section>
-  <script src="scriptslide.js"></script>
+    </section>    
+         <footer>
+      <p>Copyright &#169; 2023 Animatrix. All Rights Reserved.</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scriptslide.js"></script>
+    </script>
   </body>
 </html>
