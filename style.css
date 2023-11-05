@@ -519,6 +519,74 @@ section {
   font-size: 2rem;
 }
 
+/* browse */
+
+/*Browse*/
+h1 {
+  text-align: center;
+  margin-left: 60px;
+  color: white;
+}
+
+option {
+  color: white;
+}
+select {
+  background-color: black;
+  border-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.filters {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  left: 70px;
+  position: relative;
+  display: inline-block;
+}
+
+.filters label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px;
+}
+
+.anime-card {
+  text-align: center;
+  width: 210px;
+  padding: 0px;
+  margin: 5px;
+}
+
+.anime-card img {
+  width: 210px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+
+.anime-card h3 {
+  color: white;
+  margin: 1px 0;
+}
+.anime-card p {
+  color: white;
+  margin: 10px 0;
+}
+
+.anime-card:hover img {
+  transform: scale(1.1);
+}
+
 /* Footer Section */
 
 footer {
