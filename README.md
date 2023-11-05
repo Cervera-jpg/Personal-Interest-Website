@@ -1,2 +1,2 @@
 # Personal Interest Website
- A group work for web dev
+ A group work for web development
