@@ -12,9 +12,32 @@
     width: 580px;
   }
 }
+@media screen and (max-width: 1628px) {
+  .anime .box {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1553px) {
+  .anime .box {
+    width: 280px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1469px) {
+  .anime .box {
+    width: 260px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1376px) {
+  .anime .box {
+    width: 240px;
+    height: 400px;
+  }
+}
 @media screen and (max-width: 1366px) {
   #desktop-nav {
-    padding: 20px 10%;
+    padding: 20px 30%;
   }
   #desktop-nav .group {
     top: 10px;
@@ -38,9 +61,10 @@
     width: 580px;
   }
 }
+
 @media screen and (max-width: 1200px) {
   #desktop-nav {
-    padding: 35px 10%;
+    padding: 35px 43%;
   }
   .nav-links li a {
     display: none;
@@ -60,54 +84,54 @@
   }
   .swiper-slide .logo1 {
     width: 500px;
-    top: 20px;
+    top: 95px;
     left: 45px;
   }
   .swiper-slide .logo2 {
     width: 500px;
-    top: 70px;
+    top: 150px;
     left: 45px;
   }
   .swiper-slide .logo3 {
-    width: 450px;
-    top: 20px;
+    width: 400px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo4 {
     width: 500px;
-    top: 70px;
+    top: 130px;
     left: 10px;
   }
   .swiper-slide .logo5 {
-    width: 500px;
-    top: 40px;
+    width: 470px;
+    top: 110px;
     left: 45px;
   }
   .swiper-slide .logo6 {
     width: 500px;
-    top: 20px;
+    top: 110px;
     left: 45px;
   }
   .swiper-slide .logo7 {
     width: 500px;
-    top: 30px;
+    top: 110px;
     left: 45px;
   }
   .swiper-slide .logo8 {
-    width: 500px;
-    top: 10px;
+    width: 450px;
+    top: 80px;
     left: 45px;
   }
   .swiper-slide .logo9 {
-    width: 700px;
-    top: 70px;
+    width: 680px;
+    top: 140px;
     left: 45px;
   }
 
   .home-text h1 {
     font-size: 20px;
     margin-left: 50px;
-    margin-top: 225px;
+    margin-top: 275px;
   }
 
   #videobox video {
@@ -117,12 +141,16 @@
     top: 380px;
   }
 }
+
 @media screen and (max-width: 1000px) {
   #desktop-nav {
-    padding: 35px 10%;
+    padding: 35px 42%;
   }
   #desktop-nav .group {
     top: 10px;
+  }
+  .menu-bar {
+    margin-right: 40px;
   }
   .swiper-slide .wallpaper {
     width: 1500px;
@@ -133,67 +161,78 @@
   }
   .swiper-slide .logo1 {
     width: 400px;
-    top: 20px;
+    top: 90px;
     left: 45px;
   }
   .swiper-slide .logo2 {
     width: 400px;
-    top: 50px;
+    top: 130px;
     left: 45px;
   }
   .swiper-slide .logo3 {
     width: 320px;
-    top: 20px;
+    top: 90px;
     left: 45px;
   }
   .swiper-slide .logo4 {
     width: 400px;
-    top: 30px;
+    top: 120px;
     left: 10px;
   }
   .swiper-slide .logo5 {
     width: 350px;
-    top: 40px;
+    top: 110px;
     left: 45px;
   }
   .swiper-slide .logo6 {
     width: 400px;
-    top: 20px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo7 {
     width: 400px;
-    top: 30px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo8 {
     width: 350px;
-    top: 10px;
+    top: 80px;
     left: 45px;
   }
   .swiper-slide .logo9 {
     width: 500px;
-    top: 50px;
+    top: 140px;
     left: 45px;
   }
 
   .home-text h1 {
     font-size: 16px;
     margin-left: 50px;
-    margin-top: 165px;
+    margin-top: 235px;
   }
 
   #videobox video {
-    width: 420px;
+    width: 390px;
   }
   #videobox {
-    top: 210px;
+    top: 240px;
+    left: 580px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #videobox video {
+    width: 350px;
+  }
+  #videobox {
+    top: 250px;
+    left: 570px;
   }
 }
 
 @media screen and (max-width: 800px) {
   #desktop-nav {
-    padding: 30px 10%;
+    padding: 30px 40%;
   }
   #desktop-nav .group {
     top: 10px;
@@ -221,57 +260,57 @@
   }
   .swiper-slide .logo1 {
     width: 250px;
-    top: 20px;
+    top: 90px;
     left: 45px;
   }
   .swiper-slide .logo2 {
     width: 250px;
-    top: 50px;
+    top: 120px;
     left: 45px;
   }
   .swiper-slide .logo3 {
     width: 200px;
-    top: 20px;
+    top: 90px;
     left: 45px;
   }
   .swiper-slide .logo4 {
     width: 250px;
-    top: 30px;
+    top: 100px;
     left: 30px;
   }
   .swiper-slide .logo5 {
     width: 200px;
-    top: 40px;
+    top: 110px;
     left: 45px;
   }
   .swiper-slide .logo6 {
     width: 250px;
-    top: 50px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo7 {
     width: 250px;
-    top: 30px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo8 {
     width: 250px;
-    top: 10px;
+    top: 75px;
     left: 45px;
   }
   .swiper-slide .logo9 {
     width: 250px;
-    top: 50px;
+    top: 130px;
     left: 45px;
   }
   .container {
     min-height: 400px;
   }
   .home-text h1 {
-    font-size: 9px;
+    font-size: 10px;
     top: 0px;
     margin-left: 50px;
-    margin-top: 115px;
+    margin-top: 185px;
   }
   .btn {
     margin-top: 10px;
@@ -285,11 +324,36 @@
   }
   #videobox {
     top: 110px;
+    left: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .home .box .content h3 p {
+    font-size: 5rem;
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 700px) {
+  #videobox video {
+    width: 250px;
+  }
+  #videobox {
+    top: 100px;
+    left: 380px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #videobox video {
+    width: 230px;
+  }
+  #videobox {
+    top: 140px;
+    left: 380px;
   }
 }
 @media screen and (max-width: 500px) {
   #desktop-nav {
-    padding: 30px 10%;
+    padding: 30px 37%;
   }
   #desktop-nav .group {
     top: 10px;
@@ -300,47 +364,47 @@
   }
   .swiper-slide .logo1 {
     width: 250px;
-    top: 20px;
+    top: 90px;
     left: 45px;
   }
   .swiper-slide .logo2 {
     width: 250px;
-    top: 50px;
+    top: 120px;
     left: 45px;
   }
   .swiper-slide .logo3 {
     width: 200px;
-    top: 20px;
+    top: 95px;
     left: 45px;
   }
   .swiper-slide .logo4 {
     width: 250px;
-    top: 30px;
+    top: 110px;
     left: 30px;
   }
   .swiper-slide .logo5 {
     width: 200px;
-    top: 40px;
+    top: 115px;
     left: 45px;
   }
   .swiper-slide .logo6 {
     width: 250px;
-    top: 50px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo7 {
     width: 250px;
-    top: 30px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo8 {
     width: 250px;
-    top: 10px;
+    top: 80px;
     left: 45px;
   }
   .swiper-slide .logo9 {
     width: 250px;
-    top: 50px;
+    top: 130px;
     left: 45px;
   }
   .container {
@@ -350,7 +414,7 @@
     font-size: 9px;
     top: 0px;
     margin-left: 50px;
-    margin-top: 115px;
+    margin-top: 190px;
   }
   .btn {
     margin-top: 10px;
@@ -363,7 +427,7 @@
     width: 220px;
   }
   #videobox {
-    top: 130px;
+    top: 180px;
     left: 250px;
   }
 }
@@ -372,14 +436,27 @@
     width: 220px;
   }
   #videobox {
-    top: 130px;
+    top: 180px;
     left: 150px;
   }
 }
-
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  #videobox video {
+    width: 200px;
+  }
+  #videobox {
+    top: 170px;
+    left: 150px;
+  }
+}
 @media screen and (max-width: 360px) {
   #desktop-nav {
-    padding: 30px 10%;
+    padding: 30px 28%;
   }
   #desktop-nav .group {
     top: 10px;
@@ -390,47 +467,47 @@
   }
   .swiper-slide .logo1 {
     width: 250px;
-    top: 20px;
+    top: 80px;
     left: 45px;
   }
   .swiper-slide .logo2 {
     width: 250px;
-    top: 50px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo3 {
     width: 200px;
-    top: 20px;
+    top: 80px;
     left: 45px;
   }
   .swiper-slide .logo4 {
     width: 250px;
-    top: 30px;
+    top: 90px;
     left: 30px;
   }
   .swiper-slide .logo5 {
     width: 200px;
-    top: 40px;
+    top: 100px;
     left: 45px;
   }
   .swiper-slide .logo6 {
     width: 250px;
-    top: 50px;
+    top: 80px;
     left: 45px;
   }
   .swiper-slide .logo7 {
     width: 250px;
-    top: 30px;
+    top: 90px;
     left: 45px;
   }
   .swiper-slide .logo8 {
     width: 250px;
-    top: 10px;
+    top: 70px;
     left: 45px;
   }
   .swiper-slide .logo9 {
     width: 250px;
-    top: 50px;
+    top: 110px;
     left: 45px;
   }
   .container {
@@ -440,7 +517,7 @@
     font-size: 9px;
     top: 0px;
     margin-left: 50px;
-    margin-top: 115px;
+    margin-top: 175px;
   }
   .btn {
     margin-top: 10px;
@@ -453,31 +530,8 @@
     width: 220px;
   }
   #videobox {
-    top: 130px;
+    top: 180px;
     left: 75px;
-  }
-}
-
-/* media query */
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-  section {
-    padding: 2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .home .box .content h3 p {
-    font-size: 5rem;
-    overflow: scroll;
-  }
-}
-
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
   }
 }
 /* Browse  */

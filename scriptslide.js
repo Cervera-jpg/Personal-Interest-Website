@@ -3,6 +3,24 @@
 var swiper = new Swiper(".anime-slider", {
   slidesPerView: 5,
   spaceBetween: 30,
+  breakpoints: {
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    680: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1000: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+  },
   centeredSlides: true,
   autoplay: {
     delay: 4000,
@@ -20,6 +38,24 @@ var swiper = new Swiper(".anime-slider", {
 var swiper = new Swiper(".recommended-slider", {
   slidesPerView: 5,
   spaceBetween: 30,
+  breakpoints: {
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    680: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    1000: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+  },
   centeredSlides: true,
   autoplay: {
     delay: 4000,
@@ -31,7 +67,7 @@ var swiper = new Swiper(".recommended-slider", {
   },
   loop: true,
 });
-
+/*home*/
 var swiper = new Swiper(".home", {
   spaceBetween: 30,
   centeredSlides: true,
