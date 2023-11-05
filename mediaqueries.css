@@ -1,4 +1,12 @@
 /* Homepage responsive */
+@media screen and (max-width: 1920px) {
+  #menu {
+    display: none;
+  }
+  .menu-bg {
+    display: none;
+  }
+}
 @media screen and (max-width: 1800px) {
   #videobox video {
     width: 580px;
@@ -40,7 +48,9 @@
   #menu {
     display: block;
   }
-
+  .menu-bg {
+    display: block;
+  }
   #desktop-nav .group {
     left: 10px;
     top: 10px;
@@ -478,5 +488,13 @@
   .anime-card h3,
   p {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .filters {
+    left: 0px;
+  }
+  .filters label {
+    font-size: 20px;
   }
 }
