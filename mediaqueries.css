@@ -444,6 +444,9 @@
   html {
     font-size: 50%;
   }
+  .filters {
+    left: 40px;
+  }
 }
 @media screen and (max-width: 400px) {
   #videobox video {
@@ -549,6 +552,7 @@
     left: 0px;
   }
   .filters label {
+    margin: 25px;
     font-size: 20px;
   }
 }
