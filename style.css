@@ -215,7 +215,7 @@ form:valid a {
   color: rgb(255, 255, 255);
   top: 2px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   position: relative;
 }
 #desktop-nav ul li {
@@ -239,6 +239,104 @@ form:valid a {
   background-color: #ae00ff;
   color: white;
   box-shadow: 0 0 10px white;
+}
+/*hamburger-nav*/
+#menu {
+  margin-left: 1000px;
+  z-index: 3;
+  display: none;
+}
+
+#menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #ae00ff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.hamburger-nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.hamburger-nav ul {
+  padding: 0 22px;
+}
+
+.hamburger-nav li {
+  left: 10px;
+  list-style: none;
+  padding: 12px 0;
+}
+
+.hamburger-nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.hamburger-nav a:hover {
+  font-weight: bold;
+}
+
+.menu-bg,
+#menu {
+  margin-right: 10px;
+  top: 10px;
+  right: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #ae00ff, #ae00ff);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(60%, -20%);
 }
 /*button*/
 .btn-container {
