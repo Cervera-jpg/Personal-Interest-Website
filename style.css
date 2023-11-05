@@ -517,15 +517,16 @@ section {
   color: #fff;
   margin-bottom: 3rem;
   font-size: 2rem;
+  text-decoration: underline;
 }
-
-/* browse */
 
 /*Browse*/
 h1 {
   text-align: center;
   margin-left: 60px;
   color: white;
+  font-size: 2rem;
+  text-decoration: underline;
 }
 
 option {
