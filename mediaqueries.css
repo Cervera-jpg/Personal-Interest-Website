@@ -622,3 +622,17 @@
     font-size: 20px;
   }
 }
+
+/* footer */
+
+@media screen and( min-width: 600px) {
+  .footer-right > * {
+    flex: 1;
+  }
+  .footer-left {
+    flex: 1 0px;
+  }
+  .footer-right {
+    flex: 2 0px;
+  }
+}
