@@ -402,33 +402,33 @@ section {
   filter: brightness(0.5);
 }
 .container .logo1 {
-  width: 600px;
+  width: 550px;
   height: auto;
-  top: 100px;
+  top: 120px;
   left: 50px;
 }
 .container .logo2 {
   width: 600px;
   height: auto;
-  top: 150px;
+  top: 160px;
   left: 50px;
 }
 .container .logo3 {
-  width: 550px;
+  width: 500px;
   height: auto;
-  top: 70px;
+  top: 95px;
   left: 50px;
 }
 .container .logo4 {
-  width: 700px;
+  width: 680px;
   height: auto;
-  top: 90px;
+  top: 110px;
   left: 0px;
 }
 .container .logo5 {
-  width: 600px;
+  width: 550px;
   height: auto;
-  top: 105px;
+  top: 125px;
   left: 65px;
 }
 .container .logo6 {
@@ -438,19 +438,19 @@ section {
   left: 40px;
 }
 .container .logo7 {
-  width: 600px;
+  width: 580px;
   height: auto;
-  top: 100px;
+  top: 120px;
   left: 60px;
 }
 .container .logo8 {
-  width: 600px;
+  width: 520px;
   height: auto;
-  top: 60px;
+  top: 95px;
   left: 60px;
 }
 .container .logo9 {
-  width: 600px;
+  width: 650px;
   height: auto;
   top: 200px;
   left: 60px;
