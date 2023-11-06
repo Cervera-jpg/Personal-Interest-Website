@@ -8,17 +8,25 @@ var swiper = new Swiper(".anime-slider", {
       slidesPerView: 1,
       spaceBetween: 30,
     },
-    480: {
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    600: {
       slidesPerView: 2,
       spaceBetween: 30,
     },
-    680: {
+    1000: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
-    1000: {
+    1200: {
       slidesPerView: 4,
-      spaceBetween: 40,
+      spaceBetween: 30,
+    },
+    1400: {
+      slidesPerView: 5,
+      spaceBetween: 30,
     },
   },
   centeredSlides: true,
@@ -43,17 +51,25 @@ var swiper = new Swiper(".recommended-slider", {
       slidesPerView: 1,
       spaceBetween: 30,
     },
-    480: {
-      slidesPerView: 2,
-      spaceBetween: 30,
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 40,
     },
-    680: {
-      slidesPerView: 3,
-      spaceBetween: 30,
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 60,
     },
     1000: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+    1200: {
       slidesPerView: 4,
-      spaceBetween: 40,
+      spaceBetween: 30,
+    },
+    1400: {
+      slidesPerView: 5,
+      spaceBetween: 30,
     },
   },
   centeredSlides: true,

@@ -12,29 +12,6 @@
     width: 580px;
   }
 }
-@media screen and (max-width: 1628px) {
-  .anime .box {
-    width: 300px;
-  }
-}
-@media screen and (max-width: 1553px) {
-  .anime .box {
-    width: 280px;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 1469px) {
-  .anime .box {
-    width: 260px;
-    height: 400px;
-  }
-}
-@media screen and (max-width: 1376px) {
-  .anime .box {
-    width: 240px;
-    height: 400px;
-  }
-}
 @media screen and (max-width: 1366px) {
   #desktop-nav {
     padding: 20px 30%;
