@@ -108,11 +108,11 @@ const clearInput = () => {
 const clearBtn = document.getElementById("clear-btn");
 clearBtn.addEventListener("click", clearInput);
 /*hamburger-nav*/
-function menuOnClick() {
-  document.getElementById("menu-bar").classList.toggle("change");
-  document.getElementById("hamburger-nav").classList.toggle("change");
-  document.getElementById("menu-bg").classList.toggle("change-bg");
-}
+let menuToggle = document.querySelector(".menuToggle");
+let navigation = document.querySelector(".navigation");
+menuToggle.onclick = function () {
+  navigation.classList.toggle("active");
+};
 
 /*browse*/
 document.addEventListener("DOMContentLoaded", function () {

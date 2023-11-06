@@ -12,9 +12,14 @@
     width: 580px;
   }
 }
+@media screen and (max-width: 1470px) {
+  form {
+    left: 12%;
+  }
+}
 @media screen and (max-width: 1366px) {
   #desktop-nav {
-    padding: 20px 30%;
+    padding: 20px 31%;
   }
   #desktop-nav .group {
     top: 10px;
@@ -22,6 +27,9 @@
   .swiper-slide .wallpaper {
     width: 1500px;
     height: auto;
+  }
+  .navigation {
+    top: 15px;
   }
 
   .container {
@@ -46,13 +54,6 @@
   .nav-links li a {
     display: none;
   }
-  #menu {
-    display: block;
-  }
-  .menu-bg {
-    display: block;
-  }
-
   #desktop-nav .group {
     left: 10px;
     top: 10px;
@@ -450,6 +451,16 @@
     left: 40px;
   }
 }
+@media screen and (max-width: 470px) {
+  .navigation {
+    right: 1px;
+    width: 100px;
+    text-align: right;
+  }
+  .heading {
+    font-size: 50px;
+  }
+}
 @media screen and (max-width: 400px) {
   #videobox video {
     width: 200px;
@@ -458,13 +469,66 @@
     top: 170px;
     left: 150px;
   }
+  #desktop-nav ul li a {
+    font-size: 15px;
+  }
+  .navigation {
+    right: 1px;
+    width: 100px;
+    text-align: right;
+  }
+  .navigation.active {
+    width: 160px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #desktop-nav {
+    padding: 30px 28%;
+  }
+  #desktop-nav .group {
+    top: 15px;
+  }
+  #desktop-nav .element {
+    width: 55px;
+  }
+  #desktop-nav .text-wrapper {
+    top: 37px;
+    left: 60px;
+    font-size: 12px;
+  }
+  #desktop-nav .div {
+    top: 5px;
+    font-size: 18px;
+    left: 60px;
+  }
+  .navigation {
+    right: 1px;
+    width: 100px;
+    text-align: right;
+  }
+  .navigation.active {
+    width: 160px;
+  }
 }
 @media screen and (max-width: 360px) {
   #desktop-nav {
     padding: 30px 28%;
   }
   #desktop-nav .group {
-    top: 10px;
+    top: 15px;
+  }
+  #desktop-nav .element {
+    width: 55px;
+  }
+  #desktop-nav .text-wrapper {
+    top: 37px;
+    left: 60px;
+    font-size: 12px;
+  }
+  #desktop-nav .div {
+    top: 5px;
+    font-size: 18px;
+    left: 60px;
   }
   .swiper-slide .wallpaper {
     width: 800px;
