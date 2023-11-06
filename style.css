@@ -245,6 +245,7 @@ form:valid a {
   margin-left: 1000px;
   z-index: 3;
   display: none;
+  text-align: right;
 }
 
 #menu-bar {
@@ -278,11 +279,11 @@ form:valid a {
 }
 
 .hamburger-nav ul {
+  font-size: 3px;
   padding: 0 22px;
 }
 
 .hamburger-nav li {
-  left: 10px;
   list-style: none;
   padding: 12px 0;
 }
@@ -337,7 +338,7 @@ form:valid a {
 .change-bg {
   width: 520px;
   height: 460px;
-  transform: translate(60%, -20%);
+  transform: translate(55%, -20%);
 }
 /*button*/
 .btn-container {
