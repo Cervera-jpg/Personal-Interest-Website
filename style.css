@@ -674,77 +674,91 @@ select {
 }
 
 /* Footer Section */
-
 footer {
-  display: -webkit- flex;
-  display: -moz- flex;
-  display: -ms- flex;
-  display: -o- flex;
-  display: flex;
-  flex-flow: row wrap;
-  padding: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 1;
+  background: linear-gradient(to right, #da0c81c0, #940b92c9);
   color: #fff;
-  background-color: #ae00ff;
-}
-.footer > * {
-  flex: 1 100%;
-}
-.footer-left {
-  margin-right: 1.25rem;
-  margin-bottom: 2em;
+  border-top-left-radius: 125px;
+  border-top-right-radius: 125px;
+  font-size: 13px;
+  line-height: 20px;
 }
 
-.footer-left img {
-  width: 40px;
-  height: 40px;
-}
-.footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-.footer li {
-  line-height: 2em;
+.logoicon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 50px;
 }
 
-.footer a {
-  text-decoration: none;
-}
-
-.footer-right {
-  display: -webkit- flex;
-  display: -moz- flex;
-  display: -ms- flex;
-  display: -o- flex;
+.row {
+  width: 85%;
+  margin: auto;
   display: flex;
-  flex-flow: row wrap;
-  padding: 50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.footer-right > * {
-  flex: 1 50%;
-  margin-right: 1.5em;
+.col {
+  padding: 10px;
+}
+.col p {
+  color: #cacaca;
+}
+
+.col h3 {
+  width: fit-content;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 50px;
+  color: #cacaca;
+}
+.col h4 {
+  cursor: pointer;
+  color: #cacaca;
+}
+
+.email {
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  cursor: pointer;
 }
 
 .bottom {
   text-align: center;
-  color: #eee;
-  padding-top: 50px;
+  margin-top: 5rem;
 }
-
-.footer-left p {
-  padding-right: 20%;
-  color: #eee;
+.bottom p {
+  color: #cacaca;
 }
-
-.social a {
+.social-icon .bx {
   width: 40px;
   height: 40px;
-  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #ae00ff;
+  background: #78d6c6;
   margin-right: 10px;
+  margin-bottom: 1px;
+  cursor: pointer;
 }
 
-.social a i {
-  color: #ff0000;
-  padding: 10px 12 px;
-  font-size: 20px;
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.rights {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #cacaca;
 }
