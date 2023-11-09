@@ -315,12 +315,14 @@
     left: 400px;
   }
 }
+/* popular & recommended */
 @media (max-width: 768px) {
   .home .box .content h3 p {
     font-size: 5rem;
     overflow: scroll;
   }
 }
+/* /** */
 @media screen and (max-width: 750px) {
   #desktop-nav {
     padding: 30px 38%;
@@ -620,19 +622,5 @@
   .filters label {
     margin: 25px;
     font-size: 20px;
-  }
-}
-
-/* footer */
-
-@media screen and( min-width: 600px) {
-  .footer-right > * {
-    flex: 1;
-  }
-  .footer-left {
-    flex: 1 0px;
-  }
-  .footer-right {
-    flex: 2 0px;
   }
 }
