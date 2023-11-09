@@ -661,6 +661,7 @@ select {
   height: auto;
   border-radius: 10px;
   transition: transform 0.5s;
+  cursor: pointer;
 }
 
 .anime-card h3 {
