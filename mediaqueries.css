@@ -218,6 +218,15 @@
     padding: 35px 40%;
   }
 }
+@media screen and (max-width: 900px) {
+  #videobox video {
+    width: 340px;
+  }
+  #videobox {
+    top: 250px;
+    left: 500px;
+  }
+}
 @media screen and (max-width: 800px) {
   #desktop-nav {
     padding: 30px 40%;
@@ -333,7 +342,7 @@
     width: 250px;
   }
   #videobox {
-    top: 100px;
+    top: 130px;
     left: 380px;
   }
 }
@@ -354,6 +363,15 @@
 @media screen and (max-width: 570px) {
   #desktop-nav {
     padding: 30px 35%;
+  }
+}
+@media screen and (max-width: 550px) {
+  #videobox video {
+    width: 215px;
+  }
+  #videobox {
+    top: 145px;
+    left: 290px;
   }
 }
 @media screen and (max-width: 500px) {
